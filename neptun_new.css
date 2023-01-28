@@ -1,0 +1,277 @@
+/*nem ismeri ez a szar a 2015 ös csst :( */
+:root {
+  --magyarFeketeh: #17252A;
+  --magyarSotetAlap: #2B7A78;
+  --magyarAlap: #3AAFA9;
+ --magyarVilagos1: #DEF2F1;
+  --magyarVilagos2: #FEFFFF;
+  --magyarVilagos3:#44785f;
+  
+}
+#mainPageHeader{
+  margin:0px;
+  padding:10px;
+  background-color:var(--magyarVilagos2);
+}
+#mainPageHeader div{
+  margin: 0px;
+  padding:0px 0px 3px 0px;
+}
+.main_header_r {
+  background-image:none;
+  border-radius:0px 25px 25px 0px;
+}
+.main_header_m {
+    background-image: none;
+}
+.main_header_l {
+     background-image: none;
+  	
+  	border-radius:25px 0px 0px 25px;
+}
+.main_header_l_training_td{
+  display: flat;
+  height:100%;
+    white:100%;
+}
+
+.main_header_r,.main_header_m,.main_header_l {
+  background-color:var(--magyarSotetAlap);
+}
+#divNeptunIcon{
+  position: unset !important;
+  margin:10%;
+  width: 80%;
+  height:75%;
+  background-image: url('https://i.imgur.com/bePiSpM.png');
+  background-size:315px;
+  background-color:var(--magyarVilagos2);
+  border-radius:25px
+}
+.langskinpartially{
+  padding:10px 10px 0px 10px;
+  background-color: var(--magyarVilagos2);
+  border-radius: 25px;
+}
+
+div.infopanel_icon,
+div.infopanel_icon_warning {
+    background-image: url('https://i.imgur.com/nDQUUwK.png');
+}
+#Image2,
+#imganimation {
+    display: none;
+}
+.modalBckgroundMain {
+    background-color: #C0C0C0B9;
+    opacity: 1;
+}
+#imgdiv,
+#h_addsubjects_gridSubjects_animation,
+#loginWaitAnimation {
+    margin: auto !important;
+    background-image: url('https://i.imgur.com/W6tOVkX.gif') !important;
+    width: 200px !important;
+    height: 200px !important;
+}
+#div_login_right_side {
+    background-image: url('https://i.imgur.com/G5PojKA.png');
+}
+#td_LeftImage {
+    background-image: url('https://i.imgur.com/3ROdAK8.png');
+}
+#td_Logo {
+    background-image: url('https://i.imgur.com/YEcTz5i.png');
+}
+
+.header_left_system{
+  font-family:Verdana !important;
+ 	font-size:12px !important;
+  color:#DEF2F1 !important;
+}
+
+.NeptunChooserSelected {
+   
+  background-image:none;
+}
+.NeptunChooserSelected a{
+ padding:10% 5%;
+ background-color:var(--magyarAlap) !important;
+ border-radius:45px;
+  
+}
+.KollabChooserSelected {
+  background-image:none;
+}
+.KollabChooserSelected a{
+ padding:10% 5%;
+ background-color:var(--magyarAlap) !important;
+ border-radius:45px;
+}
+
+/*ahol a mailek vannak meg a többi....*/
+table.function_table{
+  margin:12px;
+  margin-top:17px;
+  margin-right:24px;
+  background-color:var(--magyarAlap);
+  border-radius:15px;
+  width: 99% !important;
+}
+h1{
+   color:var(--magyarVilagos1) !important;
+}
+table.function_table td.no_style{
+  height: 0px;
+}
+
+#function_tableheader tr td:nth-child(1) {
+  display:none;
+}
+.FunctionHeaderLeftCorner, .FunctionHeader,.FunctionHeaderRightCorner ,.right_side_space{
+  background-image:none;
+ background-color : var(--magyarSotetAlap);
+}
+.mainFunctionCommand {
+  height: 35px;
+  color:var(--magyarVilagos2) !important;
+}
+.FunctionCommandTitle{
+  color:var(--magyarVilagos3) !important;
+  padding: 10px;
+}
+
+/*
+table.function_table tr:nth-child(1) td:nth-child(4){
+  background-color : var(--magyarSotetAlap);
+  background-image:none;
+  border-radius: 25px;
+}*/
+
+/*baloldal*/
+table.Gadget td.HeaderLeftCorner , td.HeaderRightCorner ,td.gadgetbodyleft ,td.gadgetbodyright
+,td.GadgetFooterLeftCorner,td.GadgetFooter,td.GadgetFooterRightCorner{
+  display:none;
+}
+
+table.Gadget{
+ margin:0px 5px;
+ background-image:none;
+}
+
+table.Gadget td.GadgetHeaderPanelButtonLeftMenu , td.GadgetHeaderPanelTitle{
+  background-image:none;
+}
+
+table.Gadget tr div{
+  background-color:var(--magyarAlap);
+  border-radius:20px
+}
+table.newsTable{border-top:none;}
+
+
+
+table.Gadget span { 
+  color:var(--magyarVilagos2);
+  font-size:13px;
+    border-collapse: separate; 
+    border-spacing: 0 0px; 
+    margin-top: -10px; /* correct offset on first border spacing if desired */
+}
+table.Gadget td {
+    border: solid 0px #000;
+    border-style: solid none;
+    background-color: var(--magyarAlap);
+  	
+}
+table.Gadget tr:nth-child(2) td:nth-child(2) {
+    padding: 7px;
+    border-left-style: none;
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    border-top-right-radius: 0px; 
+}
+/* calendar bugfix*/
+/*az a lebegö esemény jelző rá van burnőlve arra a szarra szoval nem takaritom el ...*/
+
+table.Gadget td:nth-child(2) {
+  	padding:7px 7px 0px 7px;
+    border-left-style: none;
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 0px;
+}
+table.Gadget td:nth-child(3) {
+  	padding:7px 7px 0px 7px;
+    border-left-style: none;
+    border-bottom-right-radius: 0px; 
+    border-top-right-radius: 20px; 
+}
+table#calendar_calendar tr td:nth-child(0){
+  border-radius: 25px !important;
+  background-color: #ffffff;
+}
+table#calendar_calendar tr{
+  border-radius: 0px !important;
+  background-color: #ffffff;
+}
+table#calendar_calendar td{
+  border-radius: 0px !important;
+  background-color: #ffffff;
+}
+
+table#calendar_calendar td tr{
+  padding: 2px;
+  background-color: var(--magyarAlap);
+}
+div.divCalendar{
+  max-height:20px;
+  max-width:20px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff !important;
+}
+div.divCalendar img{
+  height:7px;
+  width:7px;
+  padding:15px 5px 15px 5px;
+  margin: -7.5px 2px 0px 2px ;
+}
+/*bugfix gombok és ilyenek de ezt még böven lehetne böviteni*/
+
+/* left section*/
+
+a{color:var(--magyarFeketeh) !important;}
+
+.link{
+  color:var(--magyarFeketeh) !important;
+}
+
+.ui-widget-header {
+  background:var(--magyarSotetAlap);
+  color:var(--magyarVilagos2);
+}
+
+.left_boxe{
+  display:none;
+}
+div#upBoxess{
+  display:none !important;
+}
+
+.GadgetMenuItem ,#upFunctionCommand_lbtn_new,.mainfunction_item , button{
+  background: var(--magyarVilagos1);
+  box-shadow: 0;
+  padding:7px;
+  border-radius: 25px;
+  margin:16px auto;
+  transition: width 2s linear 1s;
+}
+.GadgetMenuItem:hover ,#upFunctionCommand_lbtn_new:hover , .mainfunction_item:hover ,button:hover{
+  background: var(--magyarVilagos3);
+  box-shadow: 0;
+  padding:7px;
+  border-radius: 25px;
+
+}
+
